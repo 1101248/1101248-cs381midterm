@@ -1,7 +1,6 @@
 import requests
 import csv
 
-# API endpoint（你可改為自己的實際網址）
 API_URL = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0015-001?Authorization=CWA-25D455AA-409A-4F4E-A61B-0C74D0ACC874"
 
 def fetch_earthquake_data():
